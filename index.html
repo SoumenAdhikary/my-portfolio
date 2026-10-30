@@ -40,7 +40,13 @@ h2{font-size:1.7rem;letter-spacing:-.02em;margin:0 0 22px;font-weight:800}
 .lang{display:flex;justify-content:space-between;padding:6px 0}.lang i{font-style:normal;color:var(--muted)}
 footer{text-align:center;color:var(--muted);font-size:15px;padding:30px 0 50px}
 @media(max-width:720px){.two{grid-template-columns:1fr}nav a{margin-left:12px}}
-</style></head><body>
+.marquee{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.track{display:flex;width:max-content;animation:slide 25s linear infinite}
+.marquee:hover .track{animation-play-state:paused}
+.logo{flex:0 0 auto;width:200px;height:100px;margin-right:16px;border-radius:16px;background:#fff;display:grid;place-items:center;padding:16px}
+.logo img{max-width:100%;max-height:100%;object-fit:contain}
+@keyframes slide{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.track{animation:none}.marquee{overflow-x:auto;-webkit-mask-image:none;mask-image:none}}</style></head><body>
 <nav><div class="wrap"><b>SA</b><div><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></div></nav>
 <div class="wrap">
 
@@ -65,7 +71,17 @@ footer{text-align:center;color:var(--muted);font-size:15px;padding:30px 0 50px}
 </li></ul></div>
 </section>
 
-<section id="education"><h2>Education</h2><div class="two">
+<section id="companies"><h2>Where I've worked</h2>
+<div class="marquee"><div class="track">
+<div class="logo"><img src="logo1.png" alt="Prestige Group"></div>
+<div class="logo"><img src="logo2.png" alt="Viva Money"></div>
+<div class="logo"><img src="logo3.png" alt="Hoichoi"></div>
+<div class="logo"><img src="logo4.png" alt="MD Computers"></div>
+<div class="logo" aria-hidden="true"><img src="logo1.png" alt=""></div>
+<div class="logo" aria-hidden="true"><img src="logo2.png" alt=""></div>
+<div class="logo" aria-hidden="true"><img src="logo3.png" alt=""></div>
+<div class="logo" aria-hidden="true"><img src="logo4.png" alt=""></div>
+</div></div></section><section id="education"><h2>Education</h2><div class="two">
   <!-- EDIT -->
   <div class="card"><h3>Degree name</h3><div class="w">University name</div><small>Year to Year</small></div>
   <div class="card"><h3>Certification</h3><div class="w">Issuer</div><small>Year</small></div>
