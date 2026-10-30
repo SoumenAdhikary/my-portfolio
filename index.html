@@ -1,182 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- STEP 1: Change the title and description below. This is what Google and LinkedIn show. -->
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Soumen Adhikary | Digital Marketer</title>
-<meta name="description" content="YOUR NAME is a digital marketer specialising in SEO, paid ads and content. See results and get in touch.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<meta name="description" content="Soumen Adhikary is a digital marketer specialising in SEO, paid ads and content.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --paper: #F4F6F8;
-    --ink: #16212C;
-    --muted: #55626F;
-    --line: #D3DAE0;
-    --accent: #0A6C8C;
-    --accent-ink: #FFFFFF;
-    --mark: #FFD166;
-  }
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    margin: 0;
-    background: var(--paper);
-    color: var(--ink);
-    font-family: "Bricolage Grotesque", system-ui, -apple-system, "Segoe UI", sans-serif;
-    font-size: 18px;
-    line-height: 1.6;
-  }
-  a { color: var(--accent); }
-  a:focus-visible, .btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
-  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
-
-  nav { padding: 20px 0; border-bottom: 1px solid var(--line); }
-  nav .wrap { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
-  nav strong { font-weight: 800; }
-  nav a { margin-left: 20px; text-decoration: none; color: var(--ink); font-size: 16px; }
-  nav a:hover { color: var(--accent); }
-
-  .hero { padding: 72px 0 56px; }
-  .hero h1 {
-    font-size: clamp(2.6rem, 8vw, 5rem);
-    line-height: 1.02;
-    font-weight: 800;
-    letter-spacing: -0.03em;
-    margin: 0 0 24px;
-    max-width: 14ch;
-  }
-  .hero h1 span { background: linear-gradient(transparent 62%, var(--mark) 62%); }
-  .hero p { max-width: 56ch; color: var(--muted); margin: 0 0 32px; }
-  .btns { display: flex; flex-wrap: wrap; gap: 12px; }
-  .btn {
-    display: inline-block; padding: 12px 22px; border-radius: 6px;
-    text-decoration: none; font-weight: 600; font-size: 16px;
-    border: 2px solid var(--ink); color: var(--ink);
-  }
-  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
-  .btn:hover { transform: translateY(-1px); }
-
-  section { padding: 48px 0; border-top: 1px solid var(--line); }
-  h2 { font-size: 1.9rem; letter-spacing: -0.02em; margin: 0 0 28px; font-weight: 800; }
-
-  .results { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 32px; }
-  .results b { display: block; font-size: 3rem; line-height: 1; font-weight: 800; color: var(--accent); letter-spacing: -0.03em; }
-  .results span { color: var(--muted); font-size: 16px; display: block; margin-top: 8px; }
-
-  .work { display: grid; gap: 28px; }
-  .work article { border-left: 4px solid var(--accent); padding-left: 20px; }
-  .work h3 { margin: 0 0 6px; font-size: 1.3rem; }
-  .work p { margin: 0 0 6px; color: var(--muted); }
-
-  .tools { display: flex; flex-wrap: wrap; gap: 10px; padding: 0; margin: 0; list-style: none; }
-  .tools li { border: 1px solid var(--line); background: #fff; padding: 6px 14px; border-radius: 999px; font-size: 16px; }
-
-  footer { padding: 40px 0 64px; border-top: 1px solid var(--line); color: var(--muted); font-size: 16px; }
-
-  @media (max-width: 520px) { nav a { margin: 0 16px 0 0; } }
-  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn:hover { transform: none; } }
-</style>
-</head>
-<body>
-
-<nav>
-  <div class="wrap">
-    <strong>YOUR NAME</strong>
-    <div>
-      <a href="#results">Results</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
-</nav>
+:root{--bg:#030305;--glass:rgba(255,255,255,.045);--line:rgba(255,255,255,.11);--text:#F2F1F8;--muted:#A3A1B5;--v:#7C6BFF;--p:#FF7AC6;--c:#5CE1E6}
+*{box-sizing:border-box}
+body{margin:0;color:var(--text);font:16.5px/1.65 "Plus Jakarta Sans",system-ui,sans-serif;background:radial-gradient(800px 500px at 15% -5%,rgba(124,107,255,.30),transparent),radial-gradient(700px 500px at 95% 15%,rgba(255,122,198,.16),transparent),radial-gradient(800px 600px at 50% 105%,rgba(92,225,230,.12),transparent),var(--bg);background-attachment:fixed}
+a{color:var(--c)} a:focus-visible,.btn:focus-visible{outline:3px solid var(--c);outline-offset:3px}
+.wrap{max-width:900px;margin:0 auto;padding:0 22px}
+nav{position:sticky;top:0;z-index:5;backdrop-filter:blur(12px);background:rgba(3,3,5,.72);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+nav b{font-weight:800}nav a{color:var(--muted);text-decoration:none;margin-left:20px;font-size:15px}nav a:hover{color:var(--text)}
+.hero{text-align:center;padding:80px 0 56px}
+.av{width:104px;height:104px;border-radius:50%;margin:0 auto 24px;display:grid;place-items:center;font-size:2rem;font-weight:800;background:linear-gradient(135deg,var(--v),var(--p));box-shadow:0 0 50px rgba(124,107,255,.55);overflow:hidden}
+.av img{width:100%;height:100%;object-fit:cover}
+h1{font-size:clamp(2.6rem,8vw,4.8rem);line-height:1.04;letter-spacing:-.035em;font-weight:800;margin:0 0 10px}
+h1 span{background:linear-gradient(90deg,var(--v),var(--p));-webkit-background-clip:text;background-clip:text;color:transparent}
+.role{color:var(--muted);font-size:1.1rem;margin:0 0 18px}
+.hero p.i{max-width:54ch;margin:0 auto 28px}
+.btn{display:inline-block;padding:11px 22px;border-radius:999px;font-weight:600;text-decoration:none;border:1px solid var(--line);color:var(--text);margin:4px}
+.btn.p{background:linear-gradient(90deg,var(--v),var(--p));border:0}
+.stats{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:36px}
+.stat{background:var(--glass);border:1px solid var(--line);border-radius:16px;padding:14px 26px;min-width:150px}
+.stat b{display:block;font-size:1.8rem;color:var(--c)}.stat span{font-size:14px;color:var(--muted)}
+section{padding:36px 0}
+h2{font-size:1.7rem;letter-spacing:-.02em;margin:0 0 22px;font-weight:800}
+.card{background:var(--glass);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin-bottom:14px;backdrop-filter:blur(6px)}
+.card h3{margin:0;font-size:1.1rem}.card .w{color:var(--p);font-weight:600;font-size:15px}.card small{color:var(--muted)}
+.card ul{margin:8px 0 0;padding-left:18px;color:#D6D2EA}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}.two .card{margin:0}
+.bar{margin-bottom:14px}.bar div{display:flex;justify-content:space-between;font-size:15px;margin-bottom:5px}
+.bar i{display:block;height:8px;border-radius:99px;background:rgba(255,255,255,.1);overflow:hidden}
+.bar i::after{content:"";display:block;height:100%;width:var(--w);border-radius:99px;background:linear-gradient(90deg,var(--v),var(--c))}
+.chips{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.chips li{background:var(--glass);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:15px}
+.lang{display:flex;justify-content:space-between;padding:6px 0}.lang i{font-style:normal;color:var(--muted)}
+footer{text-align:center;color:var(--muted);font-size:15px;padding:30px 0 50px}
+@media(max-width:720px){.two{grid-template-columns:1fr}nav a{margin-left:12px}}
+</style></head><body>
+<nav><div class="wrap"><b>SA</b><div><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></div></nav>
+<div class="wrap">
 
 <header class="hero">
-  <div class="wrap">
-    <!-- STEP 2: Change the headline. Say what you do and for whom. -->
-    <h1>I grow brands with <span>search, ads and content.</span></h1>
-    <!-- STEP 3: Change this short intro (2 to 3 sentences). -->
-    <p>Hi, I'm YOUR NAME, a digital marketer based in YOUR CITY with X years of experience in SEO, paid campaigns and social media. I help businesses get more customers online.</p>
-    <div class="btns">
-      <!-- STEP 4: Your resume file must be named resume.pdf and uploaded next to this file. -->
-      <a class="btn primary" href="resume.pdf">Download resume</a>
-      <!-- STEP 5: Replace with your real LinkedIn profile link. -->
-      <a class="btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN-NAME" target="_blank" rel="noopener">LinkedIn</a>
-    </div>
-  </div>
+  <!-- EDIT: to use your photo, upload photo.jpg and replace SA with <img src="photo.jpg" alt="Soumen Adhikary"> -->
+  <div class="av">SA</div>
+  <h1>Hi, I'm <span>Soumen Adhikary</span></h1>
+  <p class="role">Digital Marketer · YOUR CITY, India</p>
+  <p class="i">I help businesses get more customers through search, paid ads and content. X years of experience turning data into plans that grow traffic, leads and sales.</p>
+  <a class="btn p" href="resume.pdf">Download resume</a>
+  <a class="btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN-NAME" target="_blank" rel="noopener">LinkedIn</a>
+  <!-- EDIT: real numbers only -->
+  <div class="stats"><div class="stat"><b>X+</b><span>Years</span></div><div class="stat"><b>+150%</b><span>Organic traffic</span></div><div class="stat"><b>3.2x</b><span>Ad return</span></div></div>
 </header>
 
-<main>
-  <section id="results">
-    <div class="wrap">
-      <h2>Results</h2>
-      <!-- STEP 6: Replace with your real numbers. Only use numbers you can back up. -->
-      <div class="results">
-        <div><b>+150%</b><span>Organic traffic in 6 months for CLIENT/COMPANY</span></div>
-        <div><b>3.2x</b><span>Return on ad spend on Google Ads for CLIENT/COMPANY</span></div>
-        <div><b>25K</b><span>Followers grown on Instagram for CLIENT/COMPANY</span></div>
-      </div>
-    </div>
-  </section>
+<section id="experience"><h2>Experience</h2>
+  <!-- EDIT: newest first. Copy a <div class="card"> to add more -->
+  <div class="card"><h3>Job title</h3><div class="w">Company name, City</div><small>Month Year to Present</small>
+    <ul><li>What you did, with a number if you have one.</li><li>A campaign you ran and the result.</li></ul></div>
+  <div class="card"><h3>Previous job title</h3><div class="w">Company name, City</div><small>Month Year to Month Year</small>
+    <ul><li>What you did and the result.</li></ul></div>
+</section>
 
-  <section id="work">
-    <div class="wrap">
-      <h2>Selected work</h2>
-      <!-- STEP 7: Replace each project. Copy a whole <article> block to add more. -->
-      <div class="work">
-        <article>
-          <h3>PROJECT NAME: SEO growth for an online store</h3>
-          <p>The problem: what the client needed.</p>
-          <p>What I did: the actions you took (keyword research, content, ads, email, etc.).</p>
-          <p>The result: the numbers or outcome.</p>
-        </article>
-        <article>
-          <h3>PROJECT NAME: Lead generation campaign</h3>
-          <p>The problem: what the client needed.</p>
-          <p>What I did: the actions you took.</p>
-          <p>The result: the numbers or outcome.</p>
-        </article>
-        <article>
-          <h3>PROJECT NAME: Social media strategy</h3>
-          <p>The problem: what the client needed.</p>
-          <p>What I did: the actions you took.</p>
-          <p>The result: the numbers or outcome.</p>
-        </article>
-      </div>
-    </div>
-  </section>
+<section id="education"><h2>Education</h2><div class="two">
+  <!-- EDIT -->
+  <div class="card"><h3>Degree name</h3><div class="w">University name</div><small>Year to Year</small></div>
+  <div class="card"><h3>Certification</h3><div class="w">Issuer</div><small>Year</small></div>
+</div></section>
 
-  <section id="tools">
-    <div class="wrap">
-      <h2>Skills and tools</h2>
-      <!-- STEP 8: Keep the tools you really use, delete the rest, add your own. -->
-      <ul class="tools">
-        <li>SEO</li>
-        <li>Google Ads</li>
-        <li>Meta Ads</li>
-        <li>Google Analytics 4</li>
-        <li>Search Console</li>
-        <li>Email marketing</li>
-        <li>Content strategy</li>
-        <li>Canva</li>
-      </ul>
-    </div>
-  </section>
+<section id="skills"><h2>Skills</h2><div class="card">
+  <!-- EDIT: change the percentages in style="--w:90%" to match your level -->
+  <div class="bar"><div><span>SEO</span></div><i style="--w:90%"></i></div>
+  <div class="bar"><div><span>Paid advertising</span></div><i style="--w:85%"></i></div>
+  <div class="bar"><div><span>Content strategy</span></div><i style="--w:80%"></i></div>
+  <div class="bar"><div><span>Analytics and reporting</span></div><i style="--w:75%"></i></div>
+  <div class="bar" style="margin:0"><div><span>Social media marketing</span></div><i style="--w:70%"></i></div>
+</div></section>
 
-  <section id="contact">
-    <div class="wrap">
-      <h2>Get in touch</h2>
-      <!-- STEP 9: Replace with your real email. -->
-      <p>Want to work together? Email me at <a href="mailto:you@example.com">you@example.com</a> or message me on <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-NAME" target="_blank" rel="noopener">LinkedIn</a>.</p>
-    </div>
-  </section>
-</main>
+<section><h2>Tools</h2>
+  <ul class="chips"><li>Google Analytics 4</li><li>Search Console</li><li>Google Ads</li><li>Meta Ads</li><li>Semrush</li><li>Ahrefs</li><li>Mailchimp</li><li>Canva</li><li>Google Sheets</li></ul></section>
 
-<footer>
-  <div class="wrap">&copy; 2026 YOUR NAME</div>
-</footer>
+<section><h2>Languages</h2><div class="card">
+  <!-- EDIT -->
+  <div class="lang">English <i>Fluent</i></div><div class="lang">Hindi <i>Fluent</i></div><div class="lang">Bengali <i>Native</i></div></div></section>
 
-</body>
-</html>
+<section id="contact"><h2>Contact</h2><div class="card">
+  <p style="margin-top:0">Open to new roles and freelance projects.</p>
+  <!-- EDIT -->
+  <p style="margin-bottom:0">Email: <a href="mailto:you@example.com">you@example.com</a><br>Phone: <a href="tel:+910000000000">+91 00000 00000</a><br>LinkedIn: <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-NAME" target="_blank" rel="noopener">linkedin.com/in/YOUR-LINKEDIN-NAME</a></p>
+</div></section>
+
+<footer>&copy; 2026 Soumen Adhikary</footer>
+</div></body></html>
