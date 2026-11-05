@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://soumen-adhikary.vercel.app/sitemap.xml
